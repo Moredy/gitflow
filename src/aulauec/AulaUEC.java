@@ -28,6 +28,8 @@ public class AulaUEC {
         Luta luta1 = new Luta();
         luta1.marcarLuta(l[0],l[1],3);
         luta1.lutar();
+        
+        Winrate win1 = new Winrate(l[0]);
     }
     
 }
